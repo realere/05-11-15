@@ -1,0 +1,11 @@
+<h1>Welcome to world movie resource </h1>
+
+
+<%= form_tag(search_path, method: :get) do %>
+  <p> Search For movies</p>
+  <%= text_field_tag :options %>
+  <%=submit_tag "Search!" %>
+
+  
+
+<% end %>
